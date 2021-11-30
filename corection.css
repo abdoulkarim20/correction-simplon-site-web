@@ -1,0 +1,984 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* navbar */
+.logo{
+    display: flex;
+    height: 40px;
+    width: 250px;
+    margin-left: 5%;
+}
+.dropdown-toggle::after{
+    /* background: #CE0033 !important; */
+    color: #CE0033;
+}
+
+.mon-navbar{
+    /* margin-top: 5px; */
+    background: #ffff;
+    box-shadow: 1px 1px 1px rgb(243, 225, 225);
+    /* cette propriete permet de faire en cas si le contenu de la page masque le menu etant donner que le menu es fixe voir le cidessu */
+    z-index: 99;
+}
+.mon-navbar .navlinkaccueil{
+    border-bottom: #CE0033 solid;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.nav-link{
+    border-bottom: transparent solid;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+.mon-navbar .nav-link:hover{
+    padding-bottom: 25px;
+    border-bottom-color:#CE0033;
+}
+.btn-contact{
+    font-style: normal;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.monstylebtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 215px;
+    height: 63px;
+    border-radius: 103px;
+    height: 50px;
+    width: 170px;
+    margin-top: 2%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.contactbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    background: #CE0033;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 25px;
+}
+/* Fin navbar */
+
+/* debut peti histoire almni etc */
+.text-apprenant-case{
+    background: red;
+    height: 450px;
+    background: rgba(249, 248, 248, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+   
+}
+
+.text-apprenant-case1{
+    height: 500px;
+    display: flex;
+    flex-direction: column;   
+}
+.contenu-apprenant{
+    height: 153px;
+    width: 80%;
+   
+}    
+.video-apprenant{
+    width: 100%;
+    height: 100%;
+    margin-top: -4rem;
+}
+.ap{
+    padding-left: 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0,25) inset;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mar{
+    margin-left: -1rem;
+    position: relative;
+}
+
+.souligne{
+    height: 3.07px;
+    width: 136px;
+    background: black;
+}
+.sous-titre-page{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #CE0033;
+}
+.aprena-div{
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CE0033;
+    color: #FFFFFF;
+    width:177px ;
+    height:41px ;
+    margin-left: -3rem;
+    margin-bottom: -4rem;
+    position: relative;
+    padding-top: 1rem;
+    z-index: 4;
+    font-size: large;
+    
+}
+.pedagogie{
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CE0033;
+    color: #FFFFFF;
+    width:177px ;
+    height:41px ;
+    margin-left: -2rem;
+    margin-bottom: -7rem;
+    position: relative;
+    padding-top: 1rem;
+    z-index: 4;
+    font-size: large;
+}
+.case-communaute{
+    margin-left: 1rem;
+}
+.pedagogie-img{
+    height: 640px;
+    width: 100%;
+}
+/* fin partie alumni aprenant histoire etc */
+
+/* section banniere */
+.banniere-accueil-img{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(58, 57, 57, 0.5)),url('images/mentor.jpeg') center center fixed
+    no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+.case-text-bannier{
+   height: 500px;
+   margin-top: 7rem;
+}
+.titre-banner {
+    color: rgb(252, 248, 248);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    position: relative;
+    
+}
+.sous-titre-banner{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.slide1{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background: #ffff;
+    border-color: transparent;
+    margin-left: 13px;
+    margin-right: 22px;
+}
+.slide3{
+    height: 12px;
+    width: 50px;
+    border-radius: 20px;
+    background: #ffff;
+    border-color: transparent;
+    margin-left: 13px;
+}
+.button-slider-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+/* fin section banniere */
+
+
+/* Section simplon senegal et photo  */
+.simplon-section{
+    background: linear-gradient(253.7deg, 
+    rgba(206, 0, 51, 0.1386) -20.13%,
+    rgba(255, 249, 249, 0) 100%);
+}
+.sectionImage{
+    position: static;
+    object-fit: cover;
+    width: 100%;
+    height: 557px;
+    left: 0px;
+    top: 5.5px;
+    border-radius: 30px;
+    flex: none;
+    flex-grow: 0;
+}
+.sout-section-simplon{
+    height: auto;
+    width:85% ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #000000; 
+}
+
+/* fin Section simplon senegal et photo  */
+
+/* les petites histoires de la communauter */
+.icone-message{
+    height: 42px;
+    width: 60px;
+    margin-left: 5%;
+    /* background: rgba(206, 0, 51, 0.07); */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.contenu-petite-story{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+.petite-story-div{
+    position: relative;
+    box-shadow: 0px 3px 67px 0px #C3C3C340;
+    Height:auto;
+    border-radius: 15px;
+    z-index: 56;
+    background: rgba(255, 255, 255, 1);
+}
+.okk{
+    z-index: 58;
+}
+.image-and-name{
+    margin-left: 5% ;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.image-ptite-story{
+    display: flex;
+    margin-left: 8.25%;
+    Width:86px;
+    Height: 86px;
+    border-radius: 100%;
+}
+.titre-actualite{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    
+    color: #1C1D28;
+}
+.nom-name-and-fonction{
+    margin-left: 3rem;
+}
+.cercle-haut{
+    Width :94px;
+    Height: 96px;
+    border-radius: 100%;
+    background: rgba(206, 0, 51, 0.09);
+    margin-left: -2rem;
+    z-index: 55;
+    position: absolute;
+    margin-top: -2rem;
+}
+.cercle-bas{
+    Width :100px;
+    Height: 100px;
+    border-radius: 100%;
+    background: rgba(206, 0, 51, 0.09);
+    position: absolute;
+    margin-top: -3rem;
+    z-index: 54;
+
+   
+}
+
+/* Fin les petites histoires de la communautes */
+
+/* nouvelle actualite */
+.section3-image{
+    border-radius: 10px;
+}
+.titre-section{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    color: #CE0033;
+}
+.date-img{
+    margin-top: -1rem;
+    z-index: 5;
+    margin-left: 10rem;
+    position: absolute;
+}
+.section3-image{
+    z-index: 4;
+    position: relative;
+}
+.plusactualite{
+    display: flex;
+    justify-content: end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.02em;;
+}
+.plusactualite ,a{
+    text-decoration: none;
+    /* font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: -0.02em; */
+    color: #CE0033;
+    /* padding-right: 20px; */
+}
+.plusactualite ,a:hover{
+    color: #CE0033;
+}
+
+/* fin nouvlelle actualite */
+
+
+/* evevnement a veni */
+.event1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 191px;
+    background: #CE0033;
+    border-radius: 10px;
+
+}
+.style-cercle{
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-right: 1rem;
+}
+.text-event{
+    margin-left: 1rem;
+}
+.date-evnet{
+    margin-left: 1rem;
+}
+/* fin evenement a vneir */
+
+/* decouverte */
+.images-banniere-decouverte{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(58, 57, 57, 0.5)),url('images/decouverte.jpg') center center
+    no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.text-decouverts{
+    padding-top: 15%;
+}
+
+/* fin decouvertes */
+
+/* nos chiffre */
+.banniere-chiffre{
+    /* background-image: url('images/redimage.png'); */
+    height: 200px;
+    background: #CE0033;
+    margin-top: -3rem;
+}
+
+/* fin nos chiffre */
+
+
+/* Footer section */
+.banniere-footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(58, 57, 57, 0.5)),url('images/bagroundfoouter.png') center center
+    no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.logo-footer{
+    height: 62px;
+    width: 70%;
+}
+.reseaux-socio-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icone-footer{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.foter-simplon{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.envoi{
+    display: flex;
+    flex-direction: row;
+    
+}
+.envoi-input{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+    width: 60%;
+    height: 60px;
+}
+.btn-joindre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CE0033;
+    border-color: transparent;
+    color: #ffff;
+    border-radius: 0 10px 10px 0px;
+    height: 60px;
+    width: 70px;
+    font-size: large;
+}
+.pied-bas{
+    background: #CE0033;
+    height: 70px;
+    width: 100%;
+    /* margin-bottom: 1px; */
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;  
+}
+.text-bas{
+    font-size: 20px;
+    font-style: bold;
+}
+.text-copy{
+    font-size: 22px;
+}
+/* fin footer section */
+
+/* Formateur section */
+.case-photo-formateur{
+    position: relative;
+    box-shadow: 0px 3px 67px 0px #C3C3C340;
+    Width:498px;
+    Height:397px;
+    margin-left:8.47%;
+    margin-right: 56.94%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.photo-formateur-and-description{
+    height: 397px;
+    width: 90%;
+    box-shadow: 0px 3px 67px 0px #C3C3C340;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+.photo-formateur{
+    width: 226px;
+    height: 259px;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    border-radius: 15px;  
+    position: relative; 
+}
+.line-arret{
+    margin-left: 80%;
+    margin-bottom: -40px;
+    height: 75px;
+    width: 6px;
+    background: #CE0033;
+}
+.name-formateur-descr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    height: 70%;
+    width: 45%;
+    margin-top: 4rem;
+
+}
+.souligne-nom {
+    /* position:absolute ; */
+    height: 3px;
+    width: 136px;
+    background: black;
+    margin-top: -10px;
+}
+.case-descrripton{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+}
+.voir-plus-div{
+    Width :90px;
+    Height :30px;
+    margin-left: 17rem;
+    position: relative;
+}
+.voir-plus{ 
+    border-radius: 15px;
+}
+.slide-formateur{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background: #CE0033;
+    border-color: transparent;
+    margin-left: 13px;
+    margin-right: 22px;
+}
+.slide3-formateur{
+    height: 12px;
+    width: 50px;
+    border-radius: 20px;
+    background: #CE0033;
+    border-color: transparent;
+    margin-left: 13px;
+}
+.button-slider-formateur{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+/* Fin formateur sections */
+
+/* Formulaire */
+.div-champ{
+    display: flex;
+    flex-direction: row;
+}
+.champ-nom{
+    margin-top: 15px;      
+    Height: 74px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+
+}
+.message-text{
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    Height:180px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+   
+}
+.contact{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+.icone-and-contenu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    justify-content: center;
+}
+.image-icone{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    /* margin-right: 5rem; */
+}
+.phone-number{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+.contenu-contact{
+    display: flex; 
+    flex-direction: column;
+    margin-left: 5rem;
+   
+}
+.sectio-map{
+    display: flex;
+    flex-direction: column;
+}
+/* Fin Formulaire */
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queri mobile */
+@media only screen and (min-width:320px) and (max-width:767px){
+    /* debut peti histoire almni etc */
+    .mar{
+        margin-left: 0;
+    }
+    .aprena-div {
+        /* display: none; */
+        margin-left: 0.08rem;
+        margin-bottom: 0;
+    }
+    .pedagogie{
+        margin-left: 0;
+        margin-bottom: -4rem;
+    }
+    .pedagogie-img{
+        height: auto;
+    }
+    .text-apprenant-case , .text-apprenant-case1{
+        height: auto;
+    }
+    .contenu-apprenant{
+        height: auto;
+        width: auto;
+    }
+    /* fin partie alumni aprenant histoire etc */
+
+    /* section banniere */
+    .banniere-accueil-img{
+        height: auto;
+    }
+    .case-text-bannier{
+        height: 100%;
+        margin-bottom: 2rem;
+
+    }
+    .button-slider-div{
+       padding-bottom: 4rem;
+    }
+
+    /* fin section banniere */
+
+    /* Section simplon senegal et photo  */
+    .sout-section-simplon{
+        width: 95%;
+        height: auto;
+        font-size: 18px;
+        line-height: normal;
+        padding-bottom: 1rem;
+    }
+    /* fin Section simplon senegal et photo  */
+
+
+    /* les petites histoires de la communauter */
+    .petite-story-div{
+        height: auto;
+        
+    }
+    .image-and-name{
+        margin-top: 1rem;
+    }
+    .contenu-petite-story{
+        width: auto;
+    }
+    .cercle-bas{
+        
+    }
+
+    /* Fin les petites histoires de la communautes */
+
+    /* actualite partie */
+    .date-img{
+        margin-left: 12rem;
+    }
+    /* Fin actualiter partie */
+
+
+    /* evevnement a veni */
+    .event1{
+        margin-bottom: 2rem;
+    }
+
+    /* fin evenement a vneir */
+
+    /* decouverte */
+    .titre-banner{
+        font-size: 30px;
+    }
+    .sous-titre-banner{
+        font-size: 15px;
+    }
+    /* fin titre banner */
+
+    /* chiffre */
+    .banniere-chiffre{
+        height: auto;
+    }
+    /* fin chiffre */
+
+
+
+    /* Footer section */
+    .banniere-footer{
+        height: auto;
+    }
+    .reseaux-socio-footer{
+        justify-content: center;
+    }
+    .envoi-input , .btn-joindre{
+        height: auto;
+        width: auto;
+        border-radius: 10px 10px 10px 10px;
+        margin-bottom: 5px;
+    }
+    .envoi{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .pied-bas{
+        height: auto;
+    }
+    .text-bas{
+        font-size: 13px;
+        font-style: bold;
+    }
+    .text-copy{
+        font-size: 18px;
+    }
+    .coeur{
+        font-size: rem;
+    }
+    /* fin footer section */
+
+
+    /* Formateur section */
+    .voir-plus-div{
+        margin-left: -5rem;
+    }
+    .photo-formateur-and-description{
+        flex-direction: column;
+        height: 100%;
+    }
+    .name-formateur-descr{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 1rem;
+    }
+    .voir-plus-div{
+        margin-left: 10rem;
+        margin-top: 1rem;
+    }
+   
+    /* Fin formateur sections */
+
+    /* formulaire */
+    .contact{
+        height: auto;
+        margin-top: 2rem;
+    }
+    /* fin formulaire */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query tablette */
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .pedagogie{
+        margin-left: 0;
+        margin-bottom: -4rem;
+    }
+    .pedagogie-img{
+        height: auto;
+    }
+    .video-apprenant{
+        height: auto;
+        margin-top: 0;
+    }
+    .aprena-div{
+        margin-left: 0;
+        margin-bottom: -3rem;
+    }
+    .text-apprenant-case , .text-apprenant-case1{
+        height: auto;
+    }
+
+
+    /* section banniere */
+    .banniere-accueil-img{
+        height: 100%;
+    }
+    .case-text-bannier{
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+    .button-slider-div{
+        padding-bottom: 4rem;
+     }
+
+    /* fin section banniere */
+
+
+    /* Section simplon senegal et photo  */
+    .sout-section-simplon{
+        width: 95%;
+        height: auto;
+        font-size: 20px;
+        line-height: normal;
+    }
+    /* fin Section simplon senegal et photo  */
+
+    /* les petites histoires de la communauter */
+    .petite-story-div{
+        height: auto;
+        margin-bottom: 2rem;
+        width: auto;
+    }
+    .image-and-name{
+        margin-top: 1rem;
+    }
+    .nom-name-and-fonction{
+        margin-left: 1rem;
+    }
+    .titre-actualite{
+        font-size: 17px;
+    }
+    /* Fin les petites histoires de la communautes */
+
+    /* actualite partie */
+    .date-img{
+        margin-left: 5rem;
+    }
+    /* Fin actualiter partie */
+
+
+    /* evevnement a veni */
+    /* .style-cercle{
+
+    } */
+    /* fin evenement a vneir */
+
+
+    /* decouverte */
+    .titre-banner{
+        font-size: 33px;
+    }
+    .sous-titre-banner{
+        font-size: 18px;
+    }
+
+
+    /* fin titre banner */
+
+       /* chiffre */
+       .banniere-chiffre{
+        height: auto;
+    }
+    /* fin chiffre */
+
+
+
+    /* Footer section */
+    .banniere-footer{
+        height: auto;
+    }
+    .reseaux-socio-footer{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .icone-footer{
+        font-size: 1.5rem;
+    }
+    .pied-bas{
+        height: auto;
+    }
+    /* fin footer section */
+
+     /* Formateur section */
+     .voir-plus-div{
+        margin-left: -5rem;
+    }
+    .photo-formateur-and-description{
+        flex-direction: column;
+        height: 100%;
+    }
+    .name-formateur-descr{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 1rem;
+    }
+    .voir-plus-div{
+        margin-left: 10rem;
+        margin-top: 1rem;
+    }
+   
+    /* Fin formateur sections */
+
+
+        /* formulaire */
+        .contact{
+            height: auto;
+            margin-top: 2rem;
+        }
+        /* fin formulaire */
+
+
+}
+
+
+
+/* media extra large */
+@media only screen and (min-width:1025px) and (max-width:1400px){
+    .voir-plus-div{
+        margin-left: 6rem;
+    }
+}
+/* fin media extre large */
+
+
+
+
+
+
+
