@@ -554,8 +554,95 @@
 .voir-plus{ 
     border-radius: 15px;
 }
+<<<<<<< HEAD
 /* Fin formateur sections */
 
+=======
+.slide-formateur{
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background: #CE0033;
+    border-color: transparent;
+    margin-left: 13px;
+    margin-right: 22px;
+}
+.slide3-formateur{
+    height: 12px;
+    width: 50px;
+    border-radius: 20px;
+    background: #CE0033;
+    border-color: transparent;
+    margin-left: 13px;
+}
+.button-slider-formateur{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+/* Fin formateur sections */
+
+/* Formulaire */
+.div-champ{
+    display: flex;
+    flex-direction: row;
+}
+.champ-nom{
+    margin-top: 15px;      
+    Height: 74px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+
+}
+.message-text{
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    Height:180px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+   
+}
+.contact{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+.icone-and-contenu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    justify-content: center;
+}
+.image-icone{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    /* margin-right: 5rem; */
+}
+.phone-number{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+.contenu-contact{
+    display: flex; 
+    flex-direction: column;
+    margin-left: 5rem;
+   
+}
+.sectio-map{
+    display: flex;
+    flex-direction: column;
+}
+/* Fin Formulaire */
+
+>>>>>>> develop
 
 
 
@@ -721,6 +808,16 @@
     }
    
     /* Fin formateur sections */
+<<<<<<< HEAD
+=======
+
+    /* formulaire */
+    .contact{
+        height: auto;
+        margin-top: 2rem;
+    }
+    /* fin formulaire */
+>>>>>>> develop
 }
 
 
@@ -865,16 +962,38 @@
     }
    
     /* Fin formateur sections */
+<<<<<<< HEAD
 }
 
 
 
 
+=======
+
+
+        /* formulaire */
+        .contact{
+            height: auto;
+            margin-top: 2rem;
+        }
+        /* fin formulaire */
+
+
+}
+
+
+
+/* media extra large */
+>>>>>>> develop
 @media only screen and (min-width:1025px) and (max-width:1400px){
     .voir-plus-div{
         margin-left: 6rem;
     }
 }
+<<<<<<< HEAD
+=======
+/* fin media extre large */
+>>>>>>> develop
 
 
 
